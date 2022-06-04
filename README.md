@@ -6,7 +6,6 @@ The stack trace usually looks like this:
 - `sdktools.ext.2.sdk2013.so!EntityOutputManager::FindOutputName + 0x1a`
 - `server_srv.so!CBaseEntityOutput::FireOutput(variant_t, CBaseEntity*, CBaseEntity*, float) + 0x1f7`
 - `server.dll + 0x139029` in NMRiH 1.12.2 Windows
-- `sdktools.ext.2.sdk2013.dll!EntityOutputManager::FindOutputName(void *,CBaseEntity *)`
 
 ## Installation
 - Upgrade to Sourcemod 1.11 or higher
