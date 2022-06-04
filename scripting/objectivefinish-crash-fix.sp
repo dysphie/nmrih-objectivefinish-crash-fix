@@ -8,12 +8,12 @@ public Plugin myinfo =
 	name        = "Objective Finish Crash Fix",
 	author      = "Dysphie",
 	description = "Fixes a common crash that can occur when the active objective changes",
-	version     = "1.0.0",
+	version     = "1.0.1",
 	url         = "https://github.com/dysphie/nmrih-objectivefinish-crash-fix"
 };
 
 
-int roundState;
+int roundState = NMO_STATE_RUNNING;
 
 public void OnPluginStart()
 {
