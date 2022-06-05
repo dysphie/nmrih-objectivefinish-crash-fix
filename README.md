@@ -1,11 +1,13 @@
 # [NMRiH] Objective Finish Crash Fix
-Sourcemod plugin for No More Room in Hell that fixes a common crash that can occur when the active objective changes.
+Sourcemod plugin for No More Room in Hell that fixes a common crash linked to objective changes.
 
+It achieves so by preventing objectives from being completed outside of an active round (warmup mode, post-extraction, etc)
 
-The stack trace usually looks like this:
+Crash dumps usually include one of these lines:
 - `sdktools.ext.2.sdk2013.so!EntityOutputManager::FindOutputName + 0x1a`
 - `server_srv.so!CBaseEntityOutput::FireOutput(variant_t, CBaseEntity*, CBaseEntity*, float) + 0x1f7`
-- `server.dll + 0x139029` in NMRiH 1.12.2 Windows
+- `server.dll + 0x139029`
+
 
 ## Installation
 - Upgrade to Sourcemod 1.11 or higher
