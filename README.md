@@ -10,6 +10,6 @@ Crash dumps usually include one of these lines:
 
 
 ## Installation
-- Upgrade to Sourcemod 1.11 or higher
+- Install [DHooks2](https://github.com/peace-maker/DHooks2/tree/dynhooks#installation) **or** upgrade to Sourcemod 1.11.6826+ which includes it
 - Grab the latest zip in [releases](https://github.com/dysphie/nmrih-objectivefinish-crash-fix/releases)
 - Extract into `addons/sourcemod`
