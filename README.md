@@ -1,3 +1,4 @@
+> ⚠️ No longer required as of NMRiH 1.12.3
 # [NMRiH] Objective Finish Crash Fix
 Sourcemod plugin for No More Room in Hell that fixes a common crash linked to objective changes.
 
